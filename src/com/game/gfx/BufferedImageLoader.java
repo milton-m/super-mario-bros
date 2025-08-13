@@ -23,7 +23,7 @@ public class BufferedImageLoader {
 			}
 			return ImageIO.read(url);
 		} catch (IOException e) {
-			throw new RuntimeException("Failed to load image: " + path, e);
+			throw new RuntimeException("Failed to load image: " + path);
 		}
 	}
 }
